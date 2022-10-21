@@ -26,7 +26,7 @@ export default {
   },
   computed: {
     imgSrc(){
-      return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${this.pokemonId}.svg`
+      return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg`
     }
   }
 
