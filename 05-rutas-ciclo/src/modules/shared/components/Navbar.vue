@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <!-- <router-link :to="{name: 'home'}">Pokemon List</router-link>
@@ -18,9 +19,13 @@ export default {
   data(){
     return{
       links: [
-        { to: '/home', name: 'Pokemons'},
-        { to: '/pokemonid/50', name: 'por ID'},
-        { to: '/about', name: 'About'},
+        { to: 'pokemon-home', name: 'Pokemons'},
+        { to: 'pokemon-id', name: 'por ID', id: 151},
+        { to: 'pokemon-about', name: 'About'},
+        
+        { to: 'dbz-characters', name: 'Personajes'},
+        { to: 'dbz-about', name: 'About'},
+        
         { to: 'https://google.com', name: 'Google'}
       ]
     } 
